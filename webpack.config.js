@@ -1,5 +1,5 @@
-var path = require('path')
-var HtmlWebpackPlugin = require('html-webpack-plugin')
+var path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   // 入口文件配置
@@ -13,7 +13,7 @@ module.exports = {
     // publicPath: '/build',
     // 输出文件名字
     filename: "bundle.js"
-  },
+  }, 
   module: {
     rules: [
       // 配置的是用来解析.css文件的loader(style-loader和css-loader)
